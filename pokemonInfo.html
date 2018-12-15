@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head class="bg-dark">
+    <title>Pokemon Information</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="getPokemonDetails.js"></script>
+</head>
+
+<body class="bg-dark">
+    <br>
+
+    <h1 class="text-center"><strong id="name" class="text-white "></strong></h1>
+    <img id="image" style="width:250px;height:250px" class="rounded mx-auto d-block"></img>
+    <table class="table table-dark">
+        <tr>
+            <td>
+                <h3 class="text-center"><strong class="text-white ">Weight: </strong></h3>
+            </td>
+            <td>
+                <h3 id="weight" class="text-left"><strong id="weight" class="text-white bg-secondary"></strong></h3>
+            </td>
+        </tr>
+    </table>
+
+
+    <table id="abilities" class="table table-dark">
+
+    </table>
+
+    <button onclick="location.href= 'pokemon.html';" class="btn btn-secondary rounded mx-auto d-block">Back to
+        Pokemonlist</button>
+
+
+</body>
+
+</html>
